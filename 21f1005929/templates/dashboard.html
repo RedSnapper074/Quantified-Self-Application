@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Dashboard</title>
+		<style>
+			div{
+				margin-top:80px
+				}
+			h1{
+				margin-top:50px
+				}
+			h2{
+				margin-top:50px
+				}
+		</style>
+	</head>
+	<body style="background-color:powderblue;">
+		<br>
+		<h1 style="text-align:center;font-size:50px;">WELCOME {{n}}!!!</h1>
+		<h2 style="text-align:center;font-size:40px;">DASHBOARD</h2>
+		<div>
+			<form align="center" action="/login/dashboard">
+				<a href="/login/dashboard/addtrac" style="font-size:25px;text-decoration: none;color: black;">ADD TRACKER</a> <br>
+				<a href="/login/dashboard/edittrac" style="font-size:25px;text-decoration: none;color: black;">EDIT TRACKER</a> <br>
+				<a href="/login/dashboard/viewtrac" style="font-size:25px;text-decoration: none;color: black;">VIEW TRACKERS</a> <br>
+				<a href="/login/dashboard/deletrac" style="font-size:25px;text-decoration: none;color: black;">DELETE TRACKERS</a> <br><br>
+				<a href="/login/dashboard/c" style="font-size:25px;text-decoration: none;color: black;">CREATE LOG</a> <br><br>
+				<a href="/login/dashboard/editlog" style="font-size:25px;text-decoration: none;color: black;">EDIT LOG</a> <br><br>
+				<a href="/login/dashboard/delete" style="font-size:25px;text-decoration: none;color: black;">DELETE LOG</a> <br><br>
+				<a href="/login/dashboard/view" style="font-size:25px;text-decoration: none;color: black;">VIEW LOG</a> <br><br>
+				<a href="/login/dashboard/trend" style="font-size:25px;text-decoration: none;color: black;">TREND</a> <br><br>
+				<a href="/login">LOGOUT</a>
+			</form>
+		</div>
+	</body>
+</html>

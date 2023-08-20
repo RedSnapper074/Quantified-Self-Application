@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>QuantifiedSelf Login</title>
+		<style>
+			div{
+				margin-top:200px
+				}
+			h1{
+				margin-top:100px
+				}
+		</style>
+	</head>
+	<body style="background-color:lightsteelblue;">
+		<h1 style="text-align:center;font-size:50px;">WELCOME TO QUANTIFIED SELF APPLICATION!</h1>
+		<div>
+			<form align = "center" action="/login" method="POST">
+                USERNAME: <input type="text" name="user" required/>
+                  <label for="pwd">Password:</label>
+                  <input type="password" id="pwd" name="pwd" minlength="8"><br><br>
+                  <input type="submit">
+            </form>
+		</div>
+	</body>
+</html>

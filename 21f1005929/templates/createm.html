@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <meta charset="UTF-8">
+		<title>Mood Log</title>
+        <style>
+			div{
+				margin-top:150px
+				}
+			h1{
+				margin-top:100px
+				}
+		</style>
+	</head>
+	<body style="background-color:powderblue;">
+        <h1 style="text-align:center;font-size:50px;">MOOD TRACKER</h1>
+		<form align="center" action="/login/dashboard/c/multiple" method="POST">
+            Username: <input type="text" name="username" required/> <br><br> 
+    		Tracker no: <input type="text" name="trackerno" required/> <br><br>
+			<input type="radio" name="ID" value="angry" />
+			<label>Angry</label>
+			<input type="radio" name="ID" value="Sad" />
+			<label>Sad</label>
+            <input type="radio" name="ID" value="Happy" />
+			<label>Happy</label>
+            <input type="radio" name="ID" value="Calm" />
+			<label>Calm</label> <br><br>
+			Note: <input type="text" name="note" required/> <br><br>
+			<input type="submit" value="Submit" /><br><br>
+			<a href="/login/dashboard">DASHBOARD</a><br><br>
+			<a href="/login/dashboard/c">CREATE LIST</a><br><br>
+			<a href="/login">LOGOUT</a>
+		</form>
+	</body>
+</html>
